@@ -19,7 +19,7 @@ services:
     ports:
       - 3000:1337
     environment:
-      - BASE_URL=http://3.80.118.217:3000
+      - BASE_URL=http://54.205.208.230:3000
       - TRUST_PROXY=0
       - DATABASE_URL=postgresql://postgres@postgres/planka
       - SECRET_KEY=notsecretkey
